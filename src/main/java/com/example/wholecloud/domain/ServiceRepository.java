@@ -2,6 +2,6 @@ package com.example.wholecloud.domain;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface MainRepository extends JpaRepository<MainEntity, Long> {
+public interface ServiceRepository extends JpaRepository<Service, Long> {
 
 }
